@@ -1,6 +1,6 @@
 1、部署的offline的模式。
 
-2、/home/sjy/fawasr-sjy/asr_android_app/app/src/main 文件夹下的是 
+2、asr_android_app/app/src/main 文件夹下的是 
 安卓APP的基本配置文件：assets是模型文件，asr_offline_res 非流式模型（一句话说完显示结果） asr_online_are 流式模型（一直在显示说的内容） hotword 热词模型 punch_res 标点模型 vad_res 端点断句？
  				
 		      JAVA文件夹下的是基础的简单的调用JAVA文件创建安卓app。
@@ -18,4 +18,10 @@
 
 
 参考网址：https://github.com/SoonSYJ/fawasr 主要参考这个！https://github.com/alibaba-damo-academy/FunASR 和 https://github.com/k2-fsa/sherpa
-.so和模型下载地址：链接: https://pan.baidu.com/s/1RiIGZGChdRKbJ18-jMqpgA 提取码: eupq  
+
+# .so和模型下载地址：
+链接: https://pan.baidu.com/s/1RiIGZGChdRKbJ18-jMqpgA 提取码: eupq  
+
+# 操作流程
+# 1： 运行build-android.sh生成对应的.so，主要需求就是先下载安卓版本的onnxruntime.so文件和FFMPEG.so文件(这里需要你自己去生成的，可以自己编辑版本（arm-v8或者arm-v7）)
+# 2：下载.so和模型文件放到对应位置，调试安卓APP即可。
