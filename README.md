@@ -13,4 +13,4 @@
 
 4、需要自己去构建安卓下的ffmpeg的.so文件，我当时试过linux下的.so，但是尝试失败！下载github上的ffmpeg-master，构建build-android（armv8）和（armv7）.sh，执行文件创建Android文件夹生成ffmpeg的.so文件供安卓app调用！ONNX的.so我是直接找的网上的，可以直接调用。
 
-5、model文件夹的地址是/home/sjy/苏州亿城科技/2024/2024.2.5/fawasr-sjy/asr_android_app/app/src/main/assets下的
+5、model文件夹的地址是asr_android_app/app/src/main/assets下的，下载放到这个文件夹下！！！
