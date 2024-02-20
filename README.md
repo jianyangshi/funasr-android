@@ -14,3 +14,8 @@
 4、需要自己去构建安卓下的ffmpeg的.so文件，我当时试过linux下的.so，但是尝试失败！下载github上的ffmpeg-master，构建build-android（armv8）和（armv7）.sh，执行文件创建Android文件夹生成ffmpeg的.so文件供安卓app调用！ONNX的.so我是直接找的网上的，可以直接调用。
 
 5、model文件夹的地址是asr_android_app/app/src/main/assets下的，下载放到这个文件夹下！！！
+
+
+
+参考网址：https://github.com/SoonSYJ/fawasr 主要参考这个！https://github.com/alibaba-damo-academy/FunASR 和 https://github.com/k2-fsa/sherpa
+.so和模型下载地址：链接: https://pan.baidu.com/s/1RiIGZGChdRKbJ18-jMqpgA 提取码: eupq  
