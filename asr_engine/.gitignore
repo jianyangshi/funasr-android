@@ -1,0 +1,11 @@
+.idea
+./__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*/*/*/__pycache__/
+.DS_Store
+*.tar.gz
+*.pyc
+.eggs
+.egg*
+build

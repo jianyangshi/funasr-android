@@ -1,0 +1,33 @@
+plugins {
+    id 'com.android.application'
+}
+
+repositories {
+    jcenter()
+    maven {
+        url "https://oss.sonatype.org/content/repositories/snapshots"
+    }
+}
+
+android {
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    compileSdkVersion 30
+
+    defaultConfig {
+        applicationId "com.fawai.asr"
+        minSdkVersion 23
+        targetSdkVersion 30
+    }
+}
+
+dependencies {
+
+    implementation 'com.android.support:appcompat-v7:27.0.2'
+
+    implementation 'org.java-websocket:Java-WebSocket:1.5.3'
+    implementation 'org.pytorch:pytorch_android:1.10.0'
+}
