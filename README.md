@@ -23,5 +23,6 @@
 链接: https://pan.baidu.com/s/1RiIGZGChdRKbJ18-jMqpgA 提取码: eupq  
 
 # 操作流程
-# 1： 运行build-android.sh生成对应的.so，主要需求就是先下载安卓版本的onnxruntime.so文件和FFMPEG.so文件(这里需要你自己去生成的，可以自己编辑版本（arm-v8或者arm-v7）)
-# 2：下载.so和模型文件放到对应位置，调试安卓APP即可。
+1： 运行build-android.sh生成对应的.so，主要需求就是先下载安卓版本的onnxruntime.so文件和FFMPEG.so文件(这里需要你自己去生成的，可以自己编辑版本（arm-v8或者arm-v7）)
+2：下载.so和模型文件放到对应位置，调试安卓APP即可。
+# 记得STAR欧！谢谢大家！
