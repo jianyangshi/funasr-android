@@ -1,4 +1,4 @@
-1、部署的offline的模式。
+1、部署的two-pass的模式。
 
 2、asr_android_app/app/src/main 文件夹下的是 
 安卓APP的基本配置文件：assets是模型文件，asr_offline_res 非流式模型（一句话说完显示结果） asr_online_are 流式模型（一直在显示说的内容） hotword 热词模型 punch_res 标点模型 vad_res 端点断句？
