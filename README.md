@@ -1,5 +1,9 @@
 # funasr-android
 funasr-android 本地化部署 c++生成.so给安卓那边调用 请看master分支下载。
+
+
+hhhhh哈哈哈哈哈
+下面是copy的别人的项目的readme？下午改下自己的项目！
 <h3 align="center">
     Hi~ Thank you for coming!
     <img src="./imgs/hands.webp" width="25px">
